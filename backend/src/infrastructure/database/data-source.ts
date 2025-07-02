@@ -5,8 +5,8 @@ export const AppDataSource = new DataSource({
   type: 'postgres',
   host: 'localhost',
   port: 5432,
-  username: 'postgres',      // Cambia según tu config
-  password: 'tu_password',
+  username: 'chatbot_user', 
+  password: '1234',
   database: 'chatbot_db',
   entities: [Message],
   synchronize: true,
